@@ -1,14 +1,21 @@
+![Advent of Code Logo](https://adventofcode.com/favicon.png)
+
 # Advent of Code 2024
+
 This repository contains my solutions for the [Advent of Code 2024](https://adventofcode.com/2024) challenges.
 
 ## Requirements
+
 The solutions were written in Python 3.10. To install the required packages, run:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Repository structure
+
 The repository is structured as follows:
+
 ```markdown
 │
 ├── README.md
@@ -43,13 +50,17 @@ The repository is structured as follows:
 The `input/` directory is not included in the repository, as requested by the challenge author. To fetch the input files for each day, you can use the `fetch_inputs.py` script.
 
 ## Running the solutions
+
 To run the solutions for a specific day, use the `run_day.py` script. For example, to run the solutions for day 1, while in the root directory, run:
+
 ```bash
 PYTHONPATH=. python scripts/run_day.py 1
 ```
 
 ## Running the tests
+
 To run the tests, use the following command:
+
 ```bash
 pytest
 ```
