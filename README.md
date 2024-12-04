@@ -64,3 +64,7 @@ To run the tests, use the following command:
 ```bash
 pytest
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
